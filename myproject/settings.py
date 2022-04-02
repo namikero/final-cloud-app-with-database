@@ -30,6 +30,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'myFinalProjectDjangoApp-ac2',
     'us-south.cf.appdomain.cloud',
+    'api.us-south.cf.cloud.ibm.com',
 ]
 
 
