@@ -1,10 +1,10 @@
   applications:
-  - name: myFinalProjectDjangoApp-ac2
+  - name: onlinecourse
     routes:
       - route: host.domain
     memory: 128M
     buildpack: python_buildpack
-  - name: myFinalProjectDjangoApp-ac2
+  - name: onlinecourse-nginx
     routes:
       - route: host.domain/static
     memory: 128M
