@@ -1,9 +1,11 @@
   applications:
   - name: onlinecourse
-    random-route: true
+    routes:
+      - route: myfinalprojectdjangoapp-ac2.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
-    random-route: true
+    routes:
+      - route: myfinalprojectdjangoapp-ac2.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
