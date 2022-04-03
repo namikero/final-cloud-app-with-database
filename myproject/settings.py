@@ -29,6 +29,7 @@ DEBUG = True
 # <HINT> add your cloud host here
 ALLOWED_HOSTS = [
     'onlinecourse-ac0',
+    'onlinecourse-ac0.us-south.cf.appdomain.cloud',
 ]
 
 
